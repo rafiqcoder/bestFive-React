@@ -1,0 +1,19 @@
+.title {
+  font-size: 40px;
+  color: goldenrod;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.detailImg {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.detailsContainer {
+  padding: 20px;
+  background-color: #ccc;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

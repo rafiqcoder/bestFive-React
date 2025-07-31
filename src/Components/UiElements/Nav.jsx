@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 const Nav = () => {
   const liStyle = {
@@ -21,34 +22,34 @@ const Nav = () => {
         }}
       >
         <li style={liStyle}>
-          <a style={aStyle} href="#">
+          <NavLink style={aStyle} to="/">
             {" "}
             Home
-          </a>
+          </NavLink>
         </li>
         <li style={liStyle}>
-          <a style={aStyle} href="#">
+          <NavLink style={aStyle} to="/about">
             {" "}
             About
-          </a>
+          </NavLink>
         </li>
         <li style={liStyle}>
-          <a style={aStyle} href="#">
+          <NavLink style={aStyle} to="/contact">
             {" "}
             Contact
-          </a>
+          </NavLink>
         </li>
         <li style={liStyle}>
-          <a style={aStyle} href="#">
+          <NavLink style={aStyle} to="/services">
             {" "}
             Services
-          </a>
+          </NavLink>
         </li>
         <li style={liStyle}>
-          <a style={aStyle} href="#">
+          <NavLink style={aStyle} to="/blogs">
             {" "}
             Blog
-          </a>
+          </NavLink>
         </li>
       </ul>
     </nav>

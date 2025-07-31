@@ -1,0 +1,42 @@
+[
+  {
+    "name": "John Doe",
+    "description": "A skilled forward known for his scoring ability and leadership.",
+    "image": "../src/assets/img/hockey1.jpg"
+  },
+  {
+    "name": "Jane Smith",
+    "description": "An agile guard with excellent ball-handling and defensive skills.",
+    "image": "../src/assets/img/hockey2.jpg"
+  },
+  {
+    "name": "Mike Johnson",
+    "description": "A dominant center with great rebounding and shot-blocking abilities.",
+    "image": "../src/assets/img/hockey3.jpg"
+  },
+  {
+    "name": "Emily Davis",
+    "description": "A versatile forward with a knack for scoring and creating plays.",
+    "image": "../src/assets/img/hockey4.jpg"
+  },
+  {
+    "name": "Chris Brown",
+    "description": "A sharp-shooting guard with a strong presence on the court.",
+    "image": "../src/assets/img/hockey5.jpg"
+  },
+  {
+    "name": "Sarah Wilson",
+    "description": "A powerful center who excels in defense and post moves.",
+    "image": "../src/assets/img/hockey6.jpg"
+  },
+  {
+    "name": "David Lee",
+    "description": "An experienced forward with a consistent scoring record.",
+    "image": "../src/assets/img/hockey7.jpg"
+  },
+  {
+    "name": "Laura Martinez",
+    "description": "A dynamic guard with great vision and playmaking skills.",
+    "image": "../src/assets/img/hockey8.jpg"
+  }
+]

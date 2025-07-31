@@ -2,7 +2,8 @@ import HeaderContent from "./HeaderContent";
 import Button from "./UiElements/Button";
 import Nav from "./UiElements/Nav";
 
-const Header = () => {
+const Header = ({ number }) => {
+  const newanumber = 5;
   // we can pass dynamic values with curly braces {}
 
   return (
@@ -16,7 +17,7 @@ const Header = () => {
       }}
     >
       <h1>LOGO</h1>
-      <Nav />
+      <Nav number={newanumber} />
       <Button text="Login" />
     </header>
   );

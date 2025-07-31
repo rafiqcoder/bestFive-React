@@ -33,6 +33,9 @@
   }
 }
 
+
+
+/* Card styles */
 .card {
   padding: 2em;
 }
@@ -43,3 +46,33 @@
 .bg-black {
   background-color: red;
 }
+/* Home css Area start */
+
+
+
+
+
+
+/* Home css Area Finish */
+
+
+/* services start */
+/* .service {
+  padding: 2em;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+} */
+
+
+
+
+/* Service responsive codes */
+
+/* @media (max-width: 768px) {
+  .service {
+    padding: 1em;
+  }
+} */
+
+/* services finish */
