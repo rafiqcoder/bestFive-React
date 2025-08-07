@@ -1,35 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "./Home.css";
 import Button from "../../Components/UiElements/Button";
 import HeroArea from "../../Components/HeroArea";
 import Card from "../../Components/Card/Card";
+import { DataContext } from "../../ContextApi/ContextApi";
 
 const Home = ({ increment }) => {
   //useEffect(() => {}, []);
-  const [data, setData] = useState([]);
-  const [loading, setLoading] = useState(true);
   const [buttonText, setButtonText] = useState("view more");
-
-  useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/users")
-      .then((response) => response.json())
-      .then((data) => {
-        // Process the fetched data
-        console.log(data);
-        setData(data);
-        setLoading(false);
-      });
-  }, []);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
+  const { data, setData } = useContext(DataContext);
 
   return (
     <>
       <HeroArea buttonText={buttonText} />
       <div className="servicesArea">
         <h2 style={{ color: "goldenrod", fontSize: "35px" }}>Our Services</h2>
+        <h1 className="text-3xl font-bold underline">Hello world!</h1>
         <p>We offer a variety of services to help you succeed.</p>
         <div className="cardContainer">
           {data.map((player, index) => (

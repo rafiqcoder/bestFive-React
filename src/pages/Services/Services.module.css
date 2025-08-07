@@ -1,0 +1,12 @@
+.pageContainer{
+
+    padding: 20px;
+    background-color: #434343;
+    color: white;
+}
+.servicesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}

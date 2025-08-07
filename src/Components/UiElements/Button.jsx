@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { DataContext } from "../../assets/ContextApi/ContextApi";
+import { DataContext } from "../../ContextApi/ContextApi";
 
 const Button = () => {
   const { buttonText } = useContext(DataContext);

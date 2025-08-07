@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import hockey1 from "../../assets/img/hockey1.jpg";
-import "./Details.css"; // Assuming you have a CSS file for styling
+import "./UserDetails.css"; // Assuming you have a CSS file for styling
 import { useParams } from "react-router";
 
-const Details = () => {
+const UserDetails = () => {
   const [userDetails, setUserDetails] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -47,4 +47,4 @@ const Details = () => {
   );
 };
 
-export default Details;
+export default UserDetails;
