@@ -15,7 +15,7 @@ const Home = ({ increment }) => {
       <HeroArea buttonText={buttonText} />
       <div className="servicesArea">
         <h2 style={{ color: "goldenrod", fontSize: "35px" }}>Our Services</h2>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+        <h1 className="">Hello world!</h1>
         <p>We offer a variety of services to help you succeed.</p>
         <div className="cardContainer">
           {data.map((player, index) => (
